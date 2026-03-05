@@ -1,15 +1,15 @@
-# User Tap
+# arran4 Tap
 
 ## How do I install these formulae?
 
-`brew install user/tap/<formula>`
+`brew install arran4/tap/<formula>`
 
-Or `brew tap user/tap` and then `brew install <formula>`.
+Or `brew tap arran4/tap` and then `brew install <formula>`.
 
 Or, in a `brew bundle` `Brewfile`:
 
 ```ruby
-tap "user/tap"
+tap "arran4/tap"
 brew "<formula>"
 ```
 
