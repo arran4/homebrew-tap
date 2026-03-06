@@ -3,7 +3,7 @@ cask "qip" do
   name "qip"
   desc "qip - Image Processing CLI"
   homepage "https://github.com/royalicing/qip"
-  version "0.0.8"
+  version "0.0.16"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "qip" do
   on_macos do
     on_intel do
       url "https://github.com/arran4/fork-qip/releases/download/v#{version}/qip_Darwin_x86_64.tar.gz"
-      sha256 "9eaffd92d7d7abe70155ada806edf1dcd9d00a8743802e3a6372b9eaedaa2b78"
+      sha256 "4791151696e9cf760991db1214cbe41dde2a7a8a989acd95ad699c8474dbe48b"
     end
     on_arm do
       url "https://github.com/arran4/fork-qip/releases/download/v#{version}/qip_Darwin_arm64.tar.gz"
-      sha256 "ab40f75d009bd8f397a09f0731ee69818fa6afc6499d95df289f76e009267ca3"
+      sha256 "05db833ae61a6209658a35192d18574937a45d9e84fbdc64361387e57447db3e"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/arran4/fork-qip/releases/download/v#{version}/qip_Linux_x86_64.tar.gz"
-      sha256 "3928b4fb7ab10ea547d70a3f8a1aa6d52f8c380254223d0b2264f298d243575b"
+      sha256 "60e125a402a5f7ab3d8c369c476250195f46dd7bd22e427ee8643190916a9d72"
     end
     on_arm do
       url "https://github.com/arran4/fork-qip/releases/download/v#{version}/qip_Linux_arm64.tar.gz"
-      sha256 "a8ad1e064f7c17e90c8f4462c28bcdfe80232defa9a5fa07f86771cf7cd9377e"
+      sha256 "6b7337cf6b77bd670ecf54e2f21459b88d3deba14621b6366a8974e2a4468e7c"
     end
   end
 
