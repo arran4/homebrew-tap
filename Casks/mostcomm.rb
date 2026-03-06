@@ -3,7 +3,7 @@ cask "mostcomm" do
   name "mostcomm"
   desc ""
   homepage ""
-  version "1.2.9"
+  version "1.2.10"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "mostcomm" do
   on_macos do
     on_intel do
       url "https://github.com/arran4/mostcomm/releases/download/v#{version}/mostcomm_#{version}_darwin_amd64.tar.gz"
-      sha256 "6224f443afb4117c079b130f5021946db67c5bf13dcf7c5d4d02a0a2e55d7456"
+      sha256 "0abb3b881460c5c450a6b993906dc4c69eec887a774e0be9b7664d5cb9f35a42"
     end
     on_arm do
       url "https://github.com/arran4/mostcomm/releases/download/v#{version}/mostcomm_#{version}_darwin_arm64.tar.gz"
-      sha256 "d8c79cc506d5f072a035bdf15e5c9ce362c4d93afaa40142509b381a4960afc1"
+      sha256 "df678c2c252e8a18866daaa2266d192d8609a16d5ade95126f8bf82f5b8679c2"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/arran4/mostcomm/releases/download/v#{version}/mostcomm_#{version}_linux_amd64.tar.gz"
-      sha256 "702abe2b5cb74609fffc102adb5115007c09bae7ec4e544a166a1a39100de9f7"
+      sha256 "ea80d3a2c2aa1e5f66f90a931e592b055bd0c012b34e8abe3606d1a8d193ef4d"
     end
     on_arm do
       url "https://github.com/arran4/mostcomm/releases/download/v#{version}/mostcomm_#{version}_linux_arm64.tar.gz"
-      sha256 "41addf908bf14ae813fa36b6298059b683156569cfc4fd2ab963d449bb61ab93"
+      sha256 "d6cc6eda30d1fe67c38e9f877a28171d7821bf685a44d56abf26dc2dc64b06bd"
     end
   end
 
