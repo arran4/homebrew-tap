@@ -3,7 +3,7 @@ cask "git-tag-inc" do
   name "git-tag-inc"
   desc ""
   homepage ""
-  version "1.3.0"
+  version "1.3.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "git-tag-inc" do
   on_macos do
     on_intel do
       url "https://github.com/arran4/git-tag-inc/releases/download/v#{version}/git-tag-inc_#{version}_darwin_amd64.tar.gz"
-      sha256 "86b08e14f1e6306983dae59d50dd94c6544b6483295419539eb34dd4d55a0802"
+      sha256 "1b223a5a383272569835a30c5dba725bc60899ee7fa423d8e1d35d1071f4aec0"
     end
     on_arm do
       url "https://github.com/arran4/git-tag-inc/releases/download/v#{version}/git-tag-inc_#{version}_darwin_arm64.tar.gz"
-      sha256 "786b309f73a38103d885e26a411f0039af3f892ad72e7d7f3373920d66fa608e"
+      sha256 "24795bb19652df6068731f136ae853c2963c4a130bb0d2f7f231fac13969e0d4"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/arran4/git-tag-inc/releases/download/v#{version}/git-tag-inc_#{version}_linux_amd64.tar.gz"
-      sha256 "e2f747851c7a088a06d950552c670ac165a7d0b9c3968c2713dd1011600c770e"
+      sha256 "e67fa18ce598d898fa948e4138e4565260bcd8ee69192fe03b7237e624cbcc47"
     end
     on_arm do
       url "https://github.com/arran4/git-tag-inc/releases/download/v#{version}/git-tag-inc_#{version}_linux_arm64.tar.gz"
-      sha256 "45d0ae59fd80721a0edd6d71827bc09e67cd13fc9a7936b8f9fc1ee2adeeefb4"
+      sha256 "d6bbc6b562f4b06cdeff8227716a907fc4dc4a25f0ce61074d83194546b3262d"
     end
   end
 
