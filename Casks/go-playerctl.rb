@@ -3,7 +3,7 @@ cask "go-playerctl" do
   name "go-playerctl"
   desc ""
   homepage ""
-  version "0.0.14"
+  version "0.0.19"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "go-playerctl" do
   on_macos do
     on_intel do
       url "https://github.com/arran4/go-playerctl/releases/download/v#{version}/go-playerctl_#{version}_darwin_amd64.tar.gz"
-      sha256 "0ce9c35e6c72345dbb4005fcf8d124a2df75c12ddb9e06631572a71d8f45a277"
+      sha256 "aefb24513654438bed995cd8f049ac7b5b19d2533fd243397942dc28cf3a26ba"
     end
     on_arm do
       url "https://github.com/arran4/go-playerctl/releases/download/v#{version}/go-playerctl_#{version}_darwin_arm64.tar.gz"
-      sha256 "9b6b39b4813b28c824a14f335e74d8f9e657066eb5096ac2caf49997cd42cd6b"
+      sha256 "809f7d706b9c6f7a37b3b7a0de2081c12f67c95e9a06072df6002b3a17a87420"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/arran4/go-playerctl/releases/download/v#{version}/go-playerctl_#{version}_linux_amd64.tar.gz"
-      sha256 "2be8ca07a9d8b9a20b6dc7da7f6e9dfdb3fc36609e4b7cf92ca8c03b16f1d4bc"
+      sha256 "830c0d282d62104d314d076a03865d2084008bca6d7e98ea2330a1a19a4ba155"
     end
     on_arm do
       url "https://github.com/arran4/go-playerctl/releases/download/v#{version}/go-playerctl_#{version}_linux_arm64.tar.gz"
-      sha256 "040a225cbbfc80f8ce098e9bf4e96cc824b772bd6d4e20447d62d024a3556439"
+      sha256 "ec9224c350f76b3e1b20a8f0e9167b40cab33552531f599f594d8548bc915adc"
     end
   end
 
