@@ -3,7 +3,7 @@ cask "g2" do
   name "g2"
   desc ""
   homepage ""
-  version "0.0.18"
+  version "0.0.36"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "g2" do
   on_macos do
     on_intel do
       url "https://github.com/arran4/g2/releases/download/v#{version}/g2_#{version}_darwin_amd64.tar.gz"
-      sha256 "e7643b6d1afbee62344112bb6f3efdcfd6b4e07c977552bc516966ab4b75abef"
+      sha256 "42b64414f6169538301e4aa02e480dbf9e7ab5bbfe3b4f05fd6d072bfc674563"
     end
     on_arm do
       url "https://github.com/arran4/g2/releases/download/v#{version}/g2_#{version}_darwin_arm64.tar.gz"
-      sha256 "9e50cca79a3bd202d61847ef1aea7a0a5d1ae9e28b5341f6affad55292f3ab19"
+      sha256 "2bdd2b40bfe60072ab6b0062c791ad75b46479ba387871afe923a81e7b09374e"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/arran4/g2/releases/download/v#{version}/g2_#{version}_linux_amd64.tar.gz"
-      sha256 "adec99786c659d32c72c23590b6f6c968a159a39b136c382058bbb2048f85d4c"
+      sha256 "a7838f74d5a22b636ddfb41d26c9fec132e4148411a939977dd757b879320373"
     end
     on_arm do
       url "https://github.com/arran4/g2/releases/download/v#{version}/g2_#{version}_linux_arm64.tar.gz"
-      sha256 "b005fa945f47179a6f1720c2c18f17e6f19d1564cfcee4393f7e8513b9c03805"
+      sha256 "f0e68dd191a78745a1bc8db0a6ce369729b32952a9970294dbd288d63aa14208"
     end
   end
 
