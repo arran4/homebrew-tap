@@ -24,14 +24,14 @@ cask "phonenumber" do
   end
 
   name "phonenumber"
-  desc ""
-  homepage ""
+  desc "Nokia keypad simulator and multi-tap encoding generator"
+  homepage "https://github.com/arran4/phonenumber"
 
   livecheck do
     skip "Auto-generated on release."
   end
 
-  binary "phonenumber"
+  binary "drawphonecli"
 
   zap :not_required
 end
